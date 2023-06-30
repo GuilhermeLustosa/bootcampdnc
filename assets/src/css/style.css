@@ -162,5 +162,104 @@ input[type="submit"]{
     cursor: pointer;
 }
 
+/*footer*/
 
+footer{
+    width: 100%;
+    background-color: var(--azul-dnc);
+}
 
+footer .linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .linha1 ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer .linha1 nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 300px;
+}
+
+footer .linha1 h5{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: var(--font-padrao);
+    background-color: var(--preto-dnc);
+    border-radius: 5px;
+
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+}
+
+footer .linha1 ul li{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--font-padrao);
+
+    margin: 20px 0px 20px 0px;
+}
+
+footer .linha1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color:var(--cinza-hover);
+}
+
+footer .endereco{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--font-padrao);
+    color: white;
+    text-align: center;
+    width: 20%;
+}
+
+footer .linha2{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer .linha2 a{
+    font-family: var(--font-padrao);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer .linha2 a:first-child{
+    border-right: 3px solid white;
+}
+
+footer .linha2 a:hover{
+    color: var(--cinza-hover);
+}
+
+footer .linha1{
+    flex-direction: column;
+}
+
+footer .endereco{
+    width: 95%;
+    margin-bottom: 20px;
+}
